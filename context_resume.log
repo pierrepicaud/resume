@@ -22,7 +22,7 @@ structure       > sectioning > subsection @ level 4 : 0.0.1.1 -> Education
 structure       > sectioning > subsection @ level 4 : 0.0.1.2 -> Experience
 structure       > sectioning > subsection @ level 4 : 0.0.1.3 -> Technical Competence
 
-Overfull \hbox (6.65793pt too wide) in paragraph at lines 146--148
+Overfull \hbox (6.65793pt too wide) in paragraph at lines 149--151
  []<1: texgyreheros-regular @ 11.0pt> Git, Git-lab, Docker, Ku-ber-netes, <10: texgyreheros-bold @ 11.0pt> Ter-raform<1: texgyreheros-regular @ 11.0pt> , <10: texgyreheros-bold @ 11.0pt> AWS Cloud-for-ma-tion<1: texgyreheros-regular @ 11.0pt> , <10: texgyreheros-bold @ 11.0pt> Jenk-ins<1: texgyreheros-regular @ 11.0pt> , Spark 
 backend         > xmp > using file '/usr/share/texmf/tex/context/base/mkiv/lpdf-pdx.xml'
 pages           > flushing realpage 1, userpage 1, subpage 1
@@ -34,28 +34,28 @@ close source    > level 1, order 4, name '/usr/share/texmf/tex/context/base/mkiv
 mkiv lua stats  > used config file: /usr/share/texmf/web2c/texmfcnf.lua;/usr/share/texlive/texmf-dist/web2c/texmfcnf.lua
 mkiv lua stats  > used cache path: readable: '/var/lib/texmf/luatex-cache/context/b47c3d3cee7cb6c86268d0595268c442' | readable+writable: '/home/user/.texlive2019/texmf-var/luatex-cache/context/b47c3d3cee7cb6c86268d0595268c442'
 mkiv lua stats  > resource resolver: loadtime 0.017 seconds, 0 scans with scantime 0.000 seconds, 0 shared scans, 15 found files, scanned paths: <none>
-mkiv lua stats  > stored bytecode data: 443 modules (0.362 sec), 93 tables (0.026 sec), 536 chunks (0.387 sec)
+mkiv lua stats  > stored bytecode data: 443 modules (0.421 sec), 93 tables (0.023 sec), 536 chunks (0.444 sec)
 mkiv lua stats  > traced context: maxstack: 1369, freed: 0, unreachable: 1369
 mkiv lua stats  > cleaned up reserved nodes: 62 nodes, 9 lists of 440
 mkiv lua stats  > node memory usage: 1 glue, 3 kern, 3 penalty, 14 attribute, 50 glue_spec, 4 attribute_list, 2 temp, 2 user_defined
-mkiv lua stats  > node list callback tasks: 8 unique task lists, 7 instances (re)created, 502 calls
-mkiv lua stats  > h-node processing time: 0.015 seconds including kernel
-mkiv lua stats  > driver time: 0.191 seconds 
+mkiv lua stats  > node list callback tasks: 8 unique task lists, 7 instances (re)created, 522 calls
+mkiv lua stats  > h-node processing time: 0.012 seconds including kernel
+mkiv lua stats  > driver time: 0.158 seconds 
 mkiv lua stats  > used backend: pdf (backend for directly generating pdf output)
 mkiv lua stats  > jobdata time: 0.003 seconds saving, 0.001 seconds loading
-mkiv lua stats  > callbacks: internal: 1004, file: 662, direct: 2, late: 24, function 1073, total: 2765 (2765 per page)
+mkiv lua stats  > callbacks: internal: 1036, file: 669, direct: 2, late: 24, function 1077, total: 2808 (2808 per page)
 mkiv lua stats  > randomizer: resumed with value 0.58056790009141
 mkiv lua stats  > result saved in file: resume.pdf, compresslevel 3, objectcompresslevel 1
 mkiv lua stats  > loaded patterns: en::1, load time: 0.000
 mkiv lua stats  > interactive elements: 9 references, 10 destinations
 mkiv lua stats  > loaded fonts: 4 files: latinmodern-math.otf, lmmono10-regular.otf, texgyreheros-bold.otf, texgyreheros-regular.otf
-mkiv lua stats  > font engine: otf 3.107, afm 1.513, tfm 1.000, 13 instances, 7 shared in backend, 3 common vectors, 4 common hashes, load time 0.451 seconds 
+mkiv lua stats  > font engine: otf 3.107, afm 1.513, tfm 1.000, 13 instances, 7 shared in backend, 3 common vectors, 4 common hashes, load time 0.441 seconds 
 mkiv lua stats  > pdf annotations: 9 links (9 unique), 0 special
 mkiv lua stats  > used platform: linux-64, type: unix, binary subtree: usr
 mkiv lua stats  > used engine: luatex version 1.1 with functionality level 7127, banner: this is luatex, version 1.10.0 (tex live 2019/debian)
 mkiv lua stats  > control sequences: 45574 of 65536 + 100000
 mkiv lua stats  > lua properties: engine: lua 5.3, used memory: 102 MB (ctx: 102 MB), hash chars: min(64,40), symbol mask: utf (τεχ)
-mkiv lua stats  > runtime: 1.359 seconds, 2 processed pages, 2 shipped pages, 1.472 pages/second
+mkiv lua stats  > runtime: 1.362 seconds, 2 processed pages, 2 shipped pages, 1.468 pages/second
 mtx-context     | run 2: luatex --fmt="/var/lib/texmf/luatex-cache/context/b47c3d3cee7cb6c86268d0595268c442/formats/luatex/cont-en" --jobname="resume" --lua="/var/lib/texmf/luatex-cache/context/b47c3d3cee7cb6c86268d0595268c442/formats/luatex/cont-en.lui" --c:currentrun=2 --c:fulljobname="./resume.tex" --c:input="./resume.tex" --c:kindofrun=2 --c:maxnofruns=9 --c:texmfbinpath="/usr/bin" "cont-yes.mkiv"
 
 This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian) 
@@ -80,7 +80,7 @@ structure       > sectioning > subsection @ level 4 : 0.0.1.1 -> Education
 structure       > sectioning > subsection @ level 4 : 0.0.1.2 -> Experience
 structure       > sectioning > subsection @ level 4 : 0.0.1.3 -> Technical Competence
 
-Overfull \hbox (6.65793pt too wide) in paragraph at lines 146--148
+Overfull \hbox (6.65793pt too wide) in paragraph at lines 149--151
  []<1: texgyreheros-regular @ 11.0pt> Git, Git-lab, Docker, Ku-ber-netes, <10: texgyreheros-bold @ 11.0pt> Ter-raform<1: texgyreheros-regular @ 11.0pt> , <10: texgyreheros-bold @ 11.0pt> AWS Cloud-for-ma-tion<1: texgyreheros-regular @ 11.0pt> , <10: texgyreheros-bold @ 11.0pt> Jenk-ins<1: texgyreheros-regular @ 11.0pt> , Spark 
 backend         > xmp > using file '/usr/share/texmf/tex/context/base/mkiv/lpdf-pdx.xml'
 pages           > flushing realpage 1, userpage 1, subpage 1
@@ -91,28 +91,28 @@ close source    > level 1, order 4, name '/usr/share/texmf/tex/context/base/mkiv
 
 mkiv lua stats  > used config file: /usr/share/texmf/web2c/texmfcnf.lua;/usr/share/texlive/texmf-dist/web2c/texmfcnf.lua
 mkiv lua stats  > used cache path: readable: '/var/lib/texmf/luatex-cache/context/b47c3d3cee7cb6c86268d0595268c442' | readable+writable: '/home/user/.texlive2019/texmf-var/luatex-cache/context/b47c3d3cee7cb6c86268d0595268c442'
-mkiv lua stats  > resource resolver: loadtime 0.019 seconds, 0 scans with scantime 0.000 seconds, 0 shared scans, 15 found files, scanned paths: <none>
-mkiv lua stats  > stored bytecode data: 443 modules (0.464 sec), 93 tables (0.031 sec), 536 chunks (0.495 sec)
+mkiv lua stats  > resource resolver: loadtime 0.026 seconds, 0 scans with scantime 0.000 seconds, 0 shared scans, 15 found files, scanned paths: <none>
+mkiv lua stats  > stored bytecode data: 443 modules (0.444 sec), 93 tables (0.031 sec), 536 chunks (0.475 sec)
 mkiv lua stats  > traced context: maxstack: 1369, freed: 0, unreachable: 1369
 mkiv lua stats  > cleaned up reserved nodes: 62 nodes, 9 lists of 440
 mkiv lua stats  > node memory usage: 1 glue, 3 kern, 3 penalty, 14 attribute, 50 glue_spec, 4 attribute_list, 2 temp, 2 user_defined
-mkiv lua stats  > node list callback tasks: 8 unique task lists, 7 instances (re)created, 502 calls
-mkiv lua stats  > h-node processing time: 0.015 seconds including kernel
-mkiv lua stats  > driver time: 0.156 seconds 
+mkiv lua stats  > node list callback tasks: 8 unique task lists, 7 instances (re)created, 522 calls
+mkiv lua stats  > h-node processing time: 0.021 seconds including kernel
+mkiv lua stats  > driver time: 0.176 seconds 
 mkiv lua stats  > used backend: pdf (backend for directly generating pdf output)
-mkiv lua stats  > jobdata time: 0.005 seconds saving, 0.001 seconds loading
-mkiv lua stats  > callbacks: internal: 1004, file: 662, direct: 2, late: 24, function 1073, total: 2765 (2765 per page)
+mkiv lua stats  > jobdata time: 0.004 seconds saving, 0.001 seconds loading
+mkiv lua stats  > callbacks: internal: 1040, file: 669, direct: 2, late: 24, function 1077, total: 2812 (2812 per page)
 mkiv lua stats  > randomizer: resumed with value 0.58056790009141
 mkiv lua stats  > result saved in file: resume.pdf, compresslevel 3, objectcompresslevel 1
 mkiv lua stats  > loaded patterns: en::1, load time: 0.000
 mkiv lua stats  > interactive elements: 9 references, 10 destinations
 mkiv lua stats  > loaded fonts: 4 files: latinmodern-math.otf, lmmono10-regular.otf, texgyreheros-bold.otf, texgyreheros-regular.otf
-mkiv lua stats  > font engine: otf 3.107, afm 1.513, tfm 1.000, 13 instances, 7 shared in backend, 3 common vectors, 4 common hashes, load time 0.448 seconds 
+mkiv lua stats  > font engine: otf 3.107, afm 1.513, tfm 1.000, 13 instances, 7 shared in backend, 3 common vectors, 4 common hashes, load time 0.722 seconds 
 mkiv lua stats  > pdf annotations: 9 links (9 unique), 0 special
 mkiv lua stats  > used platform: linux-64, type: unix, binary subtree: usr
 mkiv lua stats  > used engine: luatex version 1.1 with functionality level 7127, banner: this is luatex, version 1.10.0 (tex live 2019/debian)
 mkiv lua stats  > control sequences: 45573 of 65536 + 100000
-mkiv lua stats  > lua properties: engine: lua 5.3, used memory: 87 MB (ctx: 87 MB), hash chars: min(64,40), symbol mask: utf (τεχ)
-mkiv lua stats  > runtime: 1.489 seconds, 2 processed pages, 2 shipped pages, 1.343 pages/second
-system          | total runtime: 4.234 seconds
+mkiv lua stats  > lua properties: engine: lua 5.3, used memory: 102 MB (ctx: 102 MB), hash chars: min(64,40), symbol mask: utf (τεχ)
+mkiv lua stats  > runtime: 1.883 seconds, 2 processed pages, 2 shipped pages, 1.062 pages/second
+system          | total runtime: 4.361 seconds
 
