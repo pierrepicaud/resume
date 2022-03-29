@@ -22,7 +22,7 @@ Last updated: 29 March 2022
 - CloudFormation template to create ECS with containerized service and alarm with SNS
 
 **ML engineer intern, Igor Gaponov, June 2021 to Jully 2021 (1 month)**
- Recreate a numerical simulation from a research paper (Data Driven Control) from matlab to python
+- Recreate a numerical simulation from a research paper (Data Driven Control) from matlab to python
 
 **3D modelling intern, Oleg Bulichev, June 2020 to Jully 2020 (1 month)**
 - Create a 3D model for an experimental stand
