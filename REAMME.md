@@ -1,3 +1,4 @@
+Last updated: 29 March 2022
 ## Du Tham Lieu (Insert Role)
 - Citizenship: Vietnam
 - Lives in: Innopolis, Tartastan, Russia	
@@ -26,7 +27,7 @@
 **3D modelling intern, Oleg Bulichev, June 2020 to Jully 2020 (1 month)**
  Create a 3D model for an experimental stand
 
-**Machine Operator at EverLight (Taiwan) Jully 2015 to Jully 2018**
+**Machine Operator at EverLight (Taiwan) Jully 2015 to Jully 2018 (1.5 years)**
 Operate plating machines
 
 ## Personal Projects
@@ -49,9 +50,9 @@ Anki card generator in Python (no GUI) ([source](https://github.com/pierrepicaud
 Apart from native in Vietnamese I also fluent in English. I can converse in Chinese and Cantonese. Currently I am acquiring Russian
 
 ## Education
-Studying Computer Science at [Innopolis University](https://innopolis.university/en/), Russia, 2019 to Present
-[CSIC](https://www.csic.khc.edu.tw/website/csic_EN/index.htm), Kaohsiung, Taiwan, Electronics Jully 2015 to Jully 2018
+- Studying Computer Science at [Innopolis University](https://innopolis.university/en/), Russia, 2019 to Present
+- [CSIC](https://www.csic.khc.edu.tw/website/csic_EN/index.htm), Kaohsiung, Taiwan, Electronics Jully 2015 to Jully 2018
 
 ## Extra
-Referal: Andrew Saushkin ([LinkedIn](https://www.linkedin.com/in/andrew-saushkin/))
-[Yegor Bugayenko's recommendation letter](https://www.yegor256.com/2021/12/01/teaching.html)
+- Referal: Andrew Saushkin ([LinkedIn](https://www.linkedin.com/in/andrew-saushkin/))
+- [Yegor Bugayenko's recommendation letter](https://www.yegor256.com/2021/12/01/teaching.html)
