@@ -1,24 +1,24 @@
 ## Du Tham Lieu (Insert Role)
-Citizenship: Vietnam
-Lives in: Innopolis, Tartastan, Russia	
-Not ready to move, not ready to travel
+- Citizenship: Vietnam
+- Lives in: Innopolis, Tartastan, Russia	
+- Not ready to move, not ready to travel
 
 ## Contacts
-Email: duthamlieu@gmail.com
-Phone number: +7 906 322 7848
-Github: [@pierrepicaud](https://github.com/pierrepicaud)
-Telegram: [@pierre_picaud](https://t.me/pierre_picaud) (prefered)
-LinkedIn: [Du Tham Lieu](https://www.linkedin.com/in/duthamlieu/)
+- Email: duthamlieu@gmail.com
+- Phone number: +7 906 322 7848
+- Github: [@pierrepicaud](https://github.com/pierrepicaud)
+- Telegram: [@pierre_picaud](https://t.me/pierre_picaud) (prefered)
+- LinkedIn: [Du Tham Lieu](https://www.linkedin.com/in/duthamlieu/)
 
 ## Experiences
 **DevOps Intern, Provectus, November 2021 to Ferbuary 2022 (4 months)**
-Deployed Jenkins (Helm) on EKS via Terraform
-Set up said Jenkins Configuration as Code via Jcas, Job DSL plugin
-Set up auto-scaling EC2 runners for said Jenkins via EC2 plugin
-Got familiar with GitLab and GitLab Runners
-Enabled cache for maven artifacts
-Made IAM roles to match the least privilege principle
-CloudFormation template to create ECS with containerized service and alarm with SNS
+- Deployed Jenkins (Helm) on EKS via Terraform
+- Set up said Jenkins Configuration as Code via Jcas, Job DSL plugin
+- Set up auto-scaling EC2 runners for said Jenkins via EC2 plugin
+- Got familiar with GitLab and GitLab Runners
+- Enabled cache for maven artifacts
+- Made IAM roles to match the least privilege principle
+- CloudFormation template to create ECS with containerized service and alarm with SNS
 
 **ML engineer intern, Igor Gaponov, June 2021 to Jully 2021 (1 month)**
  Recreate a numerical simulation from a research paper (Data Driven Control) from matlab to python
