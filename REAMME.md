@@ -25,10 +25,10 @@ Last updated: 29 March 2022
  Recreate a numerical simulation from a research paper (Data Driven Control) from matlab to python
 
 **3D modelling intern, Oleg Bulichev, June 2020 to Jully 2020 (1 month)**
- Create a 3D model for an experimental stand
+- Create a 3D model for an experimental stand
 
 **Machine Operator at EverLight (Taiwan) Jully 2015 to Jully 2018 (1.5 years)**
-Operate plating machines
+- Operate plating machines
 
 ## Personal Projects
 Recreating picture using triangles by genetic algorithm in python ([source](https://github.com/pierrepicaud/recreate_images_from_triangle))
@@ -47,7 +47,7 @@ Blog/menu/resume in HTML and CSS ([source](https://github.com/pierrepicaud/codin
 Anki card generator in Python (no GUI) ([source](https://github.com/pierrepicaud/coding_playground/tree/main/python/anki_mental_math_generator))
 
 ## Languages and skills
-Apart from native in Vietnamese I also fluent in English. I can converse in Chinese and Cantonese. Currently I am acquiring Russian
+- Apart from native in Vietnamese I also fluent in English. I can converse in Chinese and Cantonese. Currently I am acquiring Russian
 
 ## Education
 - Studying Computer Science at [Innopolis University](https://innopolis.university/en/), Russia, 2019 to Present
