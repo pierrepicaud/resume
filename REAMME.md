@@ -4,14 +4,14 @@ Last updated: 29 March 2022
 - Lives in: Innopolis, Tartastan, Russia	
 - Not ready to move, not ready to travel
 
-## Contacts
+## How to reach me
 - Email: duthamlieu@gmail.com
 - Phone number: +7 906 322 7848
 - Github: [@pierrepicaud](https://github.com/pierrepicaud)
 - Telegram: [@fluorescent_axolotl](https://t.me/fluorescent_axolotl) (prefered)
 - LinkedIn: [Du Tham Lieu](https://www.linkedin.com/in/duthamlieu/)
 
-## Experiences
+## Experience
 **DevOps Intern, Provectus, November 2021 to Ferbuary 2022 (4 months)**
 - Deployed Jenkins (Helm) on EKS via Terraform
 - Set up said Jenkins Configuration as Code via Jcas, Job DSL plugin
