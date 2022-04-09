@@ -8,7 +8,7 @@ Last updated: 29 March 2022
 - Email: duthamlieu@gmail.com
 - Phone number: +7 906 322 7848
 - Github: [@pierrepicaud](https://github.com/pierrepicaud)
-- Telegram: [@pierre_picaud](https://t.me/pierre_picaud) (prefered)
+- Telegram: [@fluorescent_axolotl](https://t.me/fluorescent_axolotl) (prefered)
 - LinkedIn: [Du Tham Lieu](https://www.linkedin.com/in/duthamlieu/)
 
 ## Experiences
