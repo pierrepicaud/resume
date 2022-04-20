@@ -56,3 +56,4 @@ Anki card generator in Python (no GUI) ([source](https://github.com/pierrepicaud
 ## Extra
 - Referal: Andrew Saushkin ([LinkedIn](https://www.linkedin.com/in/andrew-saushkin/))
 - [Yegor Bugayenko's recommendation letter](https://www.yegor256.com/2021/12/01/teaching.html)
+- [How to get this file](https://superuser.com/a/722374)
