@@ -13,6 +13,7 @@ Last updated: 29 March 2022
 
 ## Experience
 **DevOps Intern, Provectus, November 2021 to Ferbuary 2022 (4 months)**
+![devops_cert.jpg](./_resources/devops_cert.jpg)
 - Deployed Jenkins (Helm) on EKS via Terraform
 - Set up said Jenkins Configuration as Code via Jcas, Job DSL plugin
 - Set up auto-scaling EC2 runners for said Jenkins via EC2 plugin
@@ -39,7 +40,7 @@ Recreating picture using triangles by genetic algorithm in python ([source](http
 Blog/menu/resume in HTML and CSS ([source](https://github.com/pierrepicaud/coding_playground/tree/main/web/toy_projects))
 
 
-![MergedImages.jpg](./_resources/MergedImages.jpg)
+![websites.jpg](./_resources/MergedImages.jpg)
 
 
 
