@@ -47,6 +47,7 @@ Blog/menu/resume in HTML and CSS ([source](https://github.com/pierrepicaud/codin
 Anki card generator in Python (no GUI) ([source](https://github.com/pierrepicaud/coding_playground/tree/main/python/anki_mental_math_generator))
 
 ## Languages and skills
+- [SQL](./_resources/sql.md), [matlab](./_resources/matlab.md)
 - Apart from native in Vietnamese I also fluent in English. I can converse in Chinese and Cantonese. Currently I am acquiring Russian
 
 ## Education
