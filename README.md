@@ -39,7 +39,7 @@ Recreating picture using triangles by genetic algorithm in python ([source](http
 Blog/menu/resume in HTML and CSS ([source](https://github.com/pierrepicaud/coding_playground/tree/main/web/toy_projects))
 
 
-![websites.jpg](./_resources/MergedImages.jpg)
+![websites.jpg](./_resources/websites.jpg)
 
 
 
