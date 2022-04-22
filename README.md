@@ -12,7 +12,7 @@ Last updated: 29 March 2022
 - LinkedIn: [Du Tham Lieu](https://www.linkedin.com/in/duthamlieu/)
 
 ## Experience
-**DevOps Intern, Provectus, November 2021 to Ferbuary 2022 (4 months)** [view certificate](./_resources/devops_cert.jpg)
+**DevOps Intern, Provectus, November 2021 to Ferbuary 2022 (4 months)** [view certificate](./_resources/devops.md)
 - Deployed Jenkins (Helm) on EKS via Terraform
 - Set up said Jenkins Configuration as Code via Jcas, Job DSL plugin
 - Set up auto-scaling EC2 runners for said Jenkins via EC2 plugin
