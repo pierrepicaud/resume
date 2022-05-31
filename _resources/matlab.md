@@ -1,1 +1,1 @@
-![matlab.jpg](./matlab.jpg)
+![matlab.jpg](./matlab.png)

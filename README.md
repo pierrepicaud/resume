@@ -19,10 +19,10 @@ Last updated: 29 March 2022
 - Set up Autoscalling GitLab Runners
 - Enabled cache for maven artifacts
 - Made IAM roles to match the least privilege principle
-- CloudFormation template to create ECS with containerized service and alarm with SNS
+- CloudFormation template to create ECS with containerized service and alarm with SNS notification
 
 **ML engineer intern, Igor Gaponov, June 2021 to Jully 2021 (1 month)**
-- Recreate a numerical simulation from a research paper (Data Driven Control) from matlab to python
+- Recreate a numerical simulation from a [research paper](https://arxiv.org/pdf/1611.03537.pdf) (Data Driven Control) from matlab to python, here is the [code](https://colab.research.google.com/drive/1MluMRif3-vMQV137lyqEi-uxBpX2NzRE?usp=sharing)
 
 **3D modelling intern, Oleg Bulichev, June 2020 to Jully 2020 (1 month)**
 - Create a 3D model for an experimental stand, report can be found [here](https://htmlpreview.github.io/?https://github.com/pierrepicaud/resume/blob/main/experimental_stand/intership_report.html)
