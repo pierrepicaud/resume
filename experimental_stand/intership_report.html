@@ -1,0 +1,685 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Intership Report</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	text-indent: -1.7em;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(55, 53, 47, 1);
+}
+.highlight-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.highlight-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.highlight-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.block-color-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.block-color-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-pink { background-color: rgba(245, 224, 233, 1); }
+.select-value-color-purple { background-color: rgba(232, 222, 238, 1); }
+.select-value-color-green { background-color: rgba(219, 237, 219, 1); }
+.select-value-color-gray { background-color: rgba(227, 226, 224, 1); }
+.select-value-color-opaquegray { background-color: rgba(255, 255, 255, 0.0375); }
+.select-value-color-orange { background-color: rgba(250, 222, 201, 1); }
+.select-value-color-brown { background-color: rgba(238, 224, 218, 1); }
+.select-value-color-red { background-color: rgba(255, 226, 221, 1); }
+.select-value-color-yellow { background-color: rgba(253, 236, 200, 1); }
+.select-value-color-blue { background-color: rgba(211, 229, 239, 1); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="85089df3-c8b8-42b9-9bcf-c64298624de4" class="page sans"><header><div class="page-header-icon undefined"><span class="icon">💼</span></div><h1 class="page-title">Intership Report</h1></header><div class="page-body"><hr id="c3383f7a-c3df-425b-ba5e-3f2b785f7be7"/><p id="fbe9bf98-ed1b-49fb-92c7-ec513a56f9b8" class=""><strong>Goal:</strong>
+To develop a concept of an experimental stand, which are:</p><ol type="1" id="cbb00f94-a78d-494a-ba3c-7488b2a85eda" class="numbered-list" start="1"><li>Portable (can be transported and installed on any ground). Installation pillars should have a possibility to be fixed on the ground.</li></ol><ol type="1" id="c09892b2-54d4-4687-b5e1-f88609ef70ed" class="numbered-list" start="2"><li>Different legs can be installed. Even more, electricity should be provided for the base of a leg</li></ol><ol type="1" id="eb5718ff-fe3b-48d3-aae2-85307601dc76" class="numbered-list" start="3"><li>The base of a stand should have a container, where dirt, grass, etc can be installed. A strong guy should pick it up.</li></ol><ol type="1" id="2df3363f-050e-457a-80fd-9cdc3ca3005e" class="numbered-list" start="4"><li>The possibility to install extra load on a leg shaft</li></ol><ol type="1" id="aef242dc-727d-414a-8b35-30c4ec4b7d7a" class="numbered-list" start="5"><li>The leg should have a possibility to turn on a shaft and move up and down (can be done by linear guideway)</li></ol><ol type="1" id="ea47a1be-b85b-4813-a652-7194cc2feec7" class="numbered-list" start="6"><li>A place for install microcomputer (Jetson TX2 or Nano), batteries, some other sensors</li></ol><p id="d17c57dc-0b2f-4271-a9c4-bc7d8c669546" class="">The device should be as small as possible without losing functionality. Any improvements are welcome.</p><hr id="b76c3124-aebf-4d61-8ad2-a085be8170dc"/><p id="79fac557-bb2f-4a00-bc3f-c7dcc48cfed4" class=""><strong>Precise</strong>:</p><ol type="1" id="085eae64-6c1e-4ff7-96e1-559bc319acaa" class="numbered-list" start="1"><li>Container for dirt, dull</li></ol><ol type="1" id="e10e9080-9ee9-484e-8015-bf4c327157bc" class="numbered-list" start="2"><li>Base foot which can be fix on a container</li></ol><ol type="1" id="8e85180d-bb5b-49f1-9723-16ed1c179629" class="numbered-list" start="3"><li>Core part, consist of bearings, slip rings, linear guideway</li></ol><ol type="1" id="63fe63e9-c069-491b-aaa4-0ed7b5c418f3" class="numbered-list" start="4"><li>Top of a stand, which has a place for batteries, microcomputer etc.</li></ol><ol type="1" id="86f3f4cb-005c-4f29-982e-adba1cffcd24" class="numbered-list" start="5"><li>Installation pillars.</li></ol><p id="157b8d70-ce7a-4c45-ba59-e8484c5a7c38" class="">
+</p><p id="fa69b9f4-26f4-49ff-9c25-5a4e05abf94b" class=""><strong>Numbers:</strong></p><ol type="1" id="a2198f39-d432-43e1-a863-9b964040d16a" class="numbered-list" start="1"><li>Load on the leg is 300 N at max</li></ol><ol type="1" id="3470020f-5e2b-496d-9a4a-0b6b8c354359" class="numbered-list" start="2"><li>Leg size - 50-200 mm</li></ol><p id="961c05f0-d11d-4862-a57c-b4e39f1dbcab" class="">
+</p><p id="91c92db2-6060-45b6-9e20-6042621c8a48" class=""><strong>A brief description of achieved results</strong></p><p id="a75d0e70-88a9-4a49-a7b0-face03e1f2bc" class="">A modular stand that satisfies the requirements set by the instructor.</p><p id="59ebb3f2-9cda-4f85-8c7b-fbc28ee5d3d6" class="">
+</p><div id="5371242e-7011-4397-bb7d-07c14b3abf2f" class="collection-content"><h4 class="collection-title">Timeline</h4><table class="collection-content"><thead><tr><th><span class="icon property-icon"><svg viewBox="0 0 14 14" style="width:14px;height:14px;display:block;fill:rgba(55, 53, 47, 0.45);flex-shrink:0;-webkit-backface-visibility:hidden" class="typesTitle"><path d="M7.73943662,8.6971831 C7.77640845,8.7834507 7.81338028,8.8943662 7.81338028,9.00528169 C7.81338028,9.49823944 7.40669014,9.89260563 6.91373239,9.89260563 C6.53169014,9.89260563 6.19894366,9.64612676 6.08802817,9.30105634 L5.75528169,8.33978873 L2.05809859,8.33978873 L1.72535211,9.30105634 C1.61443662,9.64612676 1.2693662,9.89260563 0.887323944,9.89260563 C0.394366197,9.89260563 0,9.49823944 0,9.00528169 C0,8.8943662 0.0246478873,8.7834507 0.0616197183,8.6971831 L2.46478873,2.48591549 C2.68661972,1.90669014 3.24119718,1.5 3.90669014,1.5 C4.55985915,1.5 5.12676056,1.90669014 5.34859155,2.48591549 L7.73943662,8.6971831 Z M2.60035211,6.82394366 L5.21302817,6.82394366 L3.90669014,3.10211268 L2.60035211,6.82394366 Z M11.3996479,3.70598592 C12.7552817,3.70598592 14,4.24823944 14,5.96126761 L14,9.07922535 C14,9.52288732 13.6549296,9.89260563 13.2112676,9.89260563 C12.8169014,9.89260563 12.471831,9.59683099 12.4225352,9.19014085 C12.028169,9.6584507 11.3257042,9.95422535 10.5492958,9.95422535 C9.60035211,9.95422535 8.47887324,9.31338028 8.47887324,7.98239437 C8.47887324,6.58978873 9.60035211,6.08450704 10.5492958,6.08450704 C11.3380282,6.08450704 12.040493,6.33098592 12.4348592,6.81161972 L12.4348592,5.98591549 C12.4348592,5.38204225 11.9172535,4.98767606 11.1285211,4.98767606 C10.6602113,4.98767606 10.2411972,5.11091549 9.80985915,5.38204225 C9.72359155,5.43133803 9.61267606,5.46830986 9.50176056,5.46830986 C9.18133803,5.46830986 8.91021127,5.1971831 8.91021127,4.86443662 C8.91021127,4.64260563 9.0334507,4.44542254 9.19366197,4.34683099 C9.87147887,3.90316901 10.6232394,3.70598592 11.3996479,3.70598592 Z M11.1778169,8.8943662 C11.6830986,8.8943662 12.1760563,8.72183099 12.4348592,8.37676056 L12.4348592,7.63732394 C12.1760563,7.29225352 11.6830986,7.11971831 11.1778169,7.11971831 C10.5616197,7.11971831 10.056338,7.45246479 10.056338,8.0193662 C10.056338,8.57394366 10.5616197,8.8943662 11.1778169,8.8943662 Z M0.65625,11.125 L13.34375,11.125 C13.7061869,11.125 14,11.4188131 14,11.78125 C14,12.1436869 13.7061869,12.4375 13.34375,12.4375 L0.65625,12.4375 C0.293813133,12.4375 4.43857149e-17,12.1436869 0,11.78125 C-4.43857149e-17,11.4188131 0.293813133,11.125 0.65625,11.125 Z"></path></svg></span>Name</th><th><span class="icon property-icon"><svg viewBox="0 0 14 14" style="width:14px;height:14px;display:block;fill:rgba(55, 53, 47, 0.45);flex-shrink:0;-webkit-backface-visibility:hidden" class="typesDate"><path d="M10.8889,5.5 L3.11111,5.5 L3.11111,7.05556 L10.8889,7.05556 L10.8889,5.5 Z M12.4444,1.05556 L11.6667,1.05556 L11.6667,0 L10.1111,0 L10.1111,1.05556 L3.88889,1.05556 L3.88889,0 L2.33333,0 L2.33333,1.05556 L1.55556,1.05556 C0.692222,1.05556 0.00777777,1.75556 0.00777777,2.61111 L0,12.5 C0,13.3556 0.692222,14 1.55556,14 L12.4444,14 C13.3,14 14,13.3556 14,12.5 L14,2.61111 C14,1.75556 13.3,1.05556 12.4444,1.05556 Z M12.4444,12.5 L1.55556,12.5 L1.55556,3.94444 L12.4444,3.94444 L12.4444,12.5 Z M8.55556,8.61111 L3.11111,8.61111 L3.11111,10.1667 L8.55556,10.1667 L8.55556,8.61111 Z"></path></svg></span>Start</th><th><span class="icon property-icon"><svg viewBox="0 0 14 14" style="width:14px;height:14px;display:block;fill:rgba(55, 53, 47, 0.45);flex-shrink:0;-webkit-backface-visibility:hidden" class="typesDate"><path d="M10.8889,5.5 L3.11111,5.5 L3.11111,7.05556 L10.8889,7.05556 L10.8889,5.5 Z M12.4444,1.05556 L11.6667,1.05556 L11.6667,0 L10.1111,0 L10.1111,1.05556 L3.88889,1.05556 L3.88889,0 L2.33333,0 L2.33333,1.05556 L1.55556,1.05556 C0.692222,1.05556 0.00777777,1.75556 0.00777777,2.61111 L0,12.5 C0,13.3556 0.692222,14 1.55556,14 L12.4444,14 C13.3,14 14,13.3556 14,12.5 L14,2.61111 C14,1.75556 13.3,1.05556 12.4444,1.05556 Z M12.4444,12.5 L1.55556,12.5 L1.55556,3.94444 L12.4444,3.94444 L12.4444,12.5 Z M8.55556,8.61111 L3.11111,8.61111 L3.11111,10.1667 L8.55556,10.1667 L8.55556,8.61111 Z"></path></svg></span>End</th><th><span class="icon property-icon"><svg viewBox="0 0 14 14" style="width:14px;height:14px;display:block;fill:rgba(55, 53, 47, 0.45);flex-shrink:0;-webkit-backface-visibility:hidden" class="typesText"><path d="M7,4.56818 C7,4.29204 6.77614,4.06818 6.5,4.06818 L0.5,4.06818 C0.223858,4.06818 0,4.29204 0,4.56818 L0,5.61364 C0,5.88978 0.223858,6.11364 0.5,6.11364 L6.5,6.11364 C6.77614,6.11364 7,5.88978 7,5.61364 L7,4.56818 Z M0.5,1 C0.223858,1 0,1.223858 0,1.5 L0,2.54545 C0,2.8216 0.223858,3.04545 0.5,3.04545 L12.5,3.04545 C12.7761,3.04545 13,2.8216 13,2.54545 L13,1.5 C13,1.223858 12.7761,1 12.5,1 L0.5,1 Z M0,8.68182 C0,8.95796 0.223858,9.18182 0.5,9.18182 L11.5,9.18182 C11.7761,9.18182 12,8.95796 12,8.68182 L12,7.63636 C12,7.36022 11.7761,7.13636 11.5,7.13636 L0.5,7.13636 C0.223858,7.13636 0,7.36022 0,7.63636 L0,8.68182 Z M0,11.75 C0,12.0261 0.223858,12.25 0.5,12.25 L9.5,12.25 C9.77614,12.25 10,12.0261 10,11.75 L10,10.70455 C10,10.4284 9.77614,10.20455 9.5,10.20455 L0.5,10.20455 C0.223858,10.20455 0,10.4284 0,10.70455 L0,11.75 Z"></path></svg></span>Task</th><th><span class="icon property-icon"><svg viewBox="0 0 14 14" style="width:14px;height:14px;display:block;fill:rgba(55, 53, 47, 0.45);flex-shrink:0;-webkit-backface-visibility:hidden" class="typesText"><path d="M7,4.56818 C7,4.29204 6.77614,4.06818 6.5,4.06818 L0.5,4.06818 C0.223858,4.06818 0,4.29204 0,4.56818 L0,5.61364 C0,5.88978 0.223858,6.11364 0.5,6.11364 L6.5,6.11364 C6.77614,6.11364 7,5.88978 7,5.61364 L7,4.56818 Z M0.5,1 C0.223858,1 0,1.223858 0,1.5 L0,2.54545 C0,2.8216 0.223858,3.04545 0.5,3.04545 L12.5,3.04545 C12.7761,3.04545 13,2.8216 13,2.54545 L13,1.5 C13,1.223858 12.7761,1 12.5,1 L0.5,1 Z M0,8.68182 C0,8.95796 0.223858,9.18182 0.5,9.18182 L11.5,9.18182 C11.7761,9.18182 12,8.95796 12,8.68182 L12,7.63636 C12,7.36022 11.7761,7.13636 11.5,7.13636 L0.5,7.13636 C0.223858,7.13636 0,7.36022 0,7.63636 L0,8.68182 Z M0,11.75 C0,12.0261 0.223858,12.25 0.5,12.25 L9.5,12.25 C9.77614,12.25 10,12.0261 10,11.75 L10,10.70455 C10,10.4284 9.77614,10.20455 9.5,10.20455 L0.5,10.20455 C0.223858,10.20455 0,10.4284 0,10.70455 L0,11.75 Z"></path></svg></span>Result</th></tr></thead><tbody><tr id="3a356891-4ecf-4dc9-9c48-fbadb86a940c"><td class="cell-title"><a href="https://www.notion.so/3a3568914ecf4dc99c48fbadb86a940c">Untitled</a></td><td class="cell-\$UT"><time>@June 6, 2020</time></td><td class="cell-!&#x27;Mv"><time>@June 15, 2020</time></td><td class="cell-&quot;L&#x27;k"> I had lectures about CAD, mainly how to create parts in Fusion 360, rendering, animation, and motion study. I was given a 3 models to create in mentioned program.</td><td class="cell-v/6,">Design Task were handed in on time.</td></tr><tr id="97bd5ef8-f409-4c87-92c2-cf3839f598da"><td class="cell-title"><a href="https://www.notion.so/97bd5ef8f4094c8792c2cf3839f598da">Untitled</a></td><td class="cell-\$UT"><time>@June 16, 2020</time></td><td class="cell-!&#x27;Mv"><time>@June 23, 2020</time></td><td class="cell-&quot;L&#x27;k">Second meeting, develop concept and study about Computer Numerical Control (CNN). Deliver a learning report on the next meeting.</td><td class="cell-v/6,">A <a href="https://www.notion.so/0cb833857be44dfa9a9635f0a3b15e78">report</a> was handed in on time.</td></tr><tr id="d69cc513-c763-4b85-922d-7e400c8b4abb"><td class="cell-title"><a href="https://www.notion.so/d69cc513c7634b85922d7e400c8b4abb">Untitled</a></td><td class="cell-\$UT"><time>@June 24, 2020</time></td><td class="cell-!&#x27;Mv"><time>@June 30, 2020</time></td><td class="cell-&quot;L&#x27;k">Design the first concept for the Experimental stand.</td><td class="cell-v/6,">A concept design was handed in on time.</td></tr><tr id="cec0491d-4aa6-40da-9158-3c461a886bec"><td class="cell-title"><a href="https://www.notion.so/cec0491d4aa640da91583c461a886bec">Untitled</a></td><td class="cell-\$UT"><time>@June 1, 2020</time></td><td class="cell-!&#x27;Mv"><time>@July 6, 2020</time></td><td class="cell-&quot;L&#x27;k">Finalize the design, create a learning report and fill a feedback form.</td><td class="cell-v/6,">Final design, feedback form and learning report was handed in in time.</td></tr></tbody></table></div><hr id="7ff5f84f-d1a7-4bd8-9507-a957d9b8e0b3"/><p id="79a2c715-97da-4786-bd9d-0a585a0bfb6e" class="">08.06.2020 → 15.06.2020:</p><hr id="4a7273a6-10f2-45d8-a2e7-fc8dc4c37e14"/><h3 id="af71746c-1d57-4bc0-9c57-5a42698bdcbe" class="">Internship report:</h3><p id="9b5410fa-decd-43b5-a90a-9beaf49e9268" class=""><strong>Result:</strong><div class="indented"><ol type="1" id="7277192c-87ca-4a95-b37c-17473d5a240a" class="numbered-list" start="1"><li>CAD models of Experimental Stand (<em>Undownloadable link</em>):<ol type="a" id="20a0b409-5a08-44b2-a382-c5b2e6fc084e" class="numbered-list" start="1"><li>MK0 (Concepts), <strong><a href="https://a360.co/3i6RTPl">here</a></strong><strong>.</strong></li></ol><ol type="a" id="db62c703-0676-4846-9a5f-5252a7317344" class="numbered-list" start="2"><li>MK1 (Failed attempt), <strong><a href="https://a360.co/2UX4oTG">here</a></strong><strong>.</strong></li></ol><ol type="a" id="15241d47-6f61-42a8-a42a-e5bee400225b" class="numbered-list" start="3"><li>MK2 (~500 mm in height), <strong><a href="https://a360.co/3dmLz2L">here </a></strong>and <strong><a href="https://a360.co/31iMD5t">here</a></strong><strong>.</strong></li></ol><ol type="a" id="0d42e108-c2b1-441c-8d74-ffe745bdfea4" class="numbered-list" start="4"><li>MK3 (~700 mm in height, improved base), <strong><a href="https://a360.co/2VhPjMA">here</a></strong><strong>.</strong></li></ol></li></ol></div></p><p id="fe89f23c-381b-4565-9b50-1984e0b69c5c" class=""><strong>The Design itself:</strong></p><figure id="1cb5608d-7c57-4f1f-895b-c7e128e66524"><div class="source"><a href="Intership%20Report%201cb5608d7c574f1f895bc7e128e66524/MK3_2020-Jun-26_06-10-18AM-000_CustomizedView7186735281_mp4.mp4">https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e00d910e-a046-49dc-b319-212258bbab50/MK3_2020-Jun-26_06-10-18AM-000_CustomizedView7186735281_mp4.mp4</a></div></figure><figure id="fd30fe79-7992-4449-8fbf-5946d32ab7f3" class="image"><a href="Intership%20Report%201cb5608d7c574f1f895bc7e128e66524/MK3_2020-Jun-26_06-04-15AM-000_CustomizedView7186735281_png_Final.png"><img style="width:1152px" src="Intership%20Report%201cb5608d7c574f1f895bc7e128e66524/MK3_2020-Jun-26_06-04-15AM-000_CustomizedView7186735281_png_Final.png"/></a></figure><ol type="1" id="4176fabc-f3fb-4321-afd1-39c1b0cd6500" class="numbered-list" start="1"><li>The Base</li></ol><figure id="a5076c69-2007-4fa6-98aa-e0eb7dddf754" class="image"><a href="Intership%20Report%201cb5608d7c574f1f895bc7e128e66524/Base_Disk_2020-Jun-25_10-30-53PM-000_CustomizedView32046401144_Final.png"><img style="width:1152px" src="Intership%20Report%201cb5608d7c574f1f895bc7e128e66524/Base_Disk_2020-Jun-25_10-30-53PM-000_CustomizedView32046401144_Final.png"/></a></figure><p id="414418d1-ca71-425f-91f9-9d53fa86a670" class="">Elevated base for ease of cleaning, I intended the design to be modular so that it can be clean, disasemble, and reasemble easily. 3 gaps in the holding area for ease of cleaning.</p><figure id="d48b602a-3540-47db-8135-2a898be29011" class="image"><a href="Intership%20Report%201cb5608d7c574f1f895bc7e128e66524/Base_Support_2020-Jun-26_04-41-56AM-000_CustomizedView1401030208_png.png"><img style="width:800px" src="Intership%20Report%201cb5608d7c574f1f895bc7e128e66524/Base_Support_2020-Jun-26_04-41-56AM-000_CustomizedView1401030208_png.png"/></a></figure><figure id="944cdb6e-937d-4c5f-9a71-cae3ebed0c09" class="image"><a href="Intership%20Report%201cb5608d7c574f1f895bc7e128e66524/Base_Assembly.gif"><img style="width:816px" src="Intership%20Report%201cb5608d7c574f1f895bc7e128e66524/Base_Assembly.gif"/></a></figure><p id="7d8e8749-8f0d-434b-8065-22ebbed1b74e" class="">
+</p><p id="d8ccf0ab-1af2-45dc-8cfb-3b4e8344e01f" class="">The base consist of the shield and the support, inspired by wood working techniques, I designed them with interlocking parts like lego, that can be assembled without any screws or hinges.</p><p id="108441cd-bb6a-4ac7-b437-03687c3db476" class="">
+</p><div id="6094e774-0369-43eb-a067-cb7b9213e096" class="column-list"><div id="41c81999-d834-4fc2-9e74-f3d65ef25380" style="width:50%" class="column"><figure id="064dc025-cc27-40f0-8610-13c07543ca80" class="image"><a href="Intership%20Report%201cb5608d7c574f1f895bc7e128e66524/Untitled.png"><img style="width:562px" src="Intership%20Report%201cb5608d7c574f1f895bc7e128e66524/Untitled.png"/></a></figure></div><div id="27e320e1-ec60-4c22-a1d2-2d14bf515ad3" style="width:50%" class="column"><figure id="d0cf0242-d55b-44c0-b6ae-e6d784333652" class="image"><a href="Intership%20Report%201cb5608d7c574f1f895bc7e128e66524/Untitled%201.png"><img style="width:550px" src="Intership%20Report%201cb5608d7c574f1f895bc7e128e66524/Untitled%201.png"/></a></figure></div></div><p id="a183a48b-0f40-44f1-ab0b-2c1fcfe8309d" class="">
+</p><p id="b2bfb148-208f-4f17-a847-f91a7316fa8c" class="">2. The Lid:</p><figure id="7f97863b-4c9d-4f53-a60e-a63a7752c8fc" class="image"><a href="Intership%20Report%201cb5608d7c574f1f895bc7e128e66524/Untitled%202.png"><img style="width:645px" src="Intership%20Report%201cb5608d7c574f1f895bc7e128e66524/Untitled%202.png"/></a></figure><p id="d8c02b1c-db84-4439-8039-861cc35a002a" class="">The lid has enough area to install batery pack and electronics with holes to pass slip rings through.</p><p id="627e934d-ed48-4845-86a8-181ad6d89b31" class="">3. Minor details:</p><p id="6ead1265-3ba2-461e-8a06-2327e7b46cfa" class="">Weight holder and 8mm rod holder with double bearings inside. </p><div id="b8701759-6510-4b10-87cd-4745f6e5a47c" class="column-list"><div id="b262bc60-7c69-4254-8420-48e6fed8f4f9" style="width:50%" class="column"><figure id="a2a6728f-f980-44f2-a5f0-e2a08bbd62bd" class="image"><a href="Intership%20Report%201cb5608d7c574f1f895bc7e128e66524/Weight_Holder_MK2_2020-Jun-26_06-38-07AM-000_CustomizedView4463928207.png"><img style="width:800px" src="Intership%20Report%201cb5608d7c574f1f895bc7e128e66524/Weight_Holder_MK2_2020-Jun-26_06-38-07AM-000_CustomizedView4463928207.png"/></a></figure></div><div id="8ea32275-e923-4469-bbf0-060886fa316f" style="width:50%" class="column"><figure id="b0bf3b08-9538-4fc2-ae9e-f984b1848f39" class="image"><a href="Intership%20Report%201cb5608d7c574f1f895bc7e128e66524/Rod_Holder_2020-Jun-26_06-38-47AM-000_CustomizedView2789939622.png"><img style="width:800px" src="Intership%20Report%201cb5608d7c574f1f895bc7e128e66524/Rod_Holder_2020-Jun-26_06-38-47AM-000_CustomizedView2789939622.png"/></a></figure><p id="9f4a9e76-8fca-470d-a4ae-36253d8a1b69" class="">
+</p></div></div><div id="e2e70fb9-3e05-4c3b-a2d1-9dcf8b787ca7" class="column-list"><div id="8b06e757-b488-44d1-9b9b-3b51744415da" style="width:50%" class="column"><p id="ef0a1c48-77ed-4e36-a14b-2576b7676844" class="">4. For the linear Guide Way, I chose the serie. EG.</p><p id="fab08032-098e-4695-88d4-4e3662330f28" class="">
+</p><p id="0da564b3-d2d8-45ad-b212-9dedbc9c28e8" class="">
+</p><figure id="b34e94b3-4538-4ed3-b260-e3673c3f9d93" class="image"><a href="Intership%20Report%201cb5608d7c574f1f895bc7e128e66524/Untitled%203.png"><img style="width:306px" src="Intership%20Report%201cb5608d7c574f1f895bc7e128e66524/Untitled%203.png"/></a></figure></div><div id="0f320a2c-5288-49de-b988-4db3b934e917" style="width:50%" class="column"><p id="b4be97f2-4c5e-4136-86f6-6867f31c9b8d" class="">
+</p><p id="ca0d164b-4e08-476e-89d3-5b4d8ae0032e" class="">
+</p><p id="807b02e4-e4b9-43e2-a447-58656828ab8b" class="">
+</p><p id="6e470796-fae3-404e-96d4-f58275ce21d7" class="">
+</p><hr id="4f2cde00-3778-4835-ae4e-2baafa0aa827"/><figure id="1411fd38-b6c8-4f45-b21e-afa47ed1c2c4" class="image"><a href="Intership%20Report%201cb5608d7c574f1f895bc7e128e66524/Untitled%204.png"><img style="width:327px" src="Intership%20Report%201cb5608d7c574f1f895bc7e128e66524/Untitled%204.png"/></a></figure><p id="76f0f1bd-04b9-4e7a-960b-07ce9d383e39" class="">
+</p></div></div><hr id="7df4667f-dd61-4167-b555-78a3baeafffc"/><p id="beaf4956-3f73-4455-984a-919c16c9416b" class="">
+</p></div></article></body></html>

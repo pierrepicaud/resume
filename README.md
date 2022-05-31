@@ -16,7 +16,7 @@ Last updated: 29 March 2022
 - Deployed Jenkins (Helm) on EKS via Terraform
 - Set up said Jenkins Configuration as Code via Jcas, Job DSL plugin
 - Set up auto-scaling EC2 runners for said Jenkins via EC2 plugin
-- Got familiar with GitLab and GitLab Runners
+- Set up Autoscalling GitLab Runners
 - Enabled cache for maven artifacts
 - Made IAM roles to match the least privilege principle
 - CloudFormation template to create ECS with containerized service and alarm with SNS
