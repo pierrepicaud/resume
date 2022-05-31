@@ -25,7 +25,7 @@ Last updated: 29 March 2022
 - Recreate a numerical simulation from a research paper (Data Driven Control) from matlab to python
 
 **3D modelling intern, Oleg Bulichev, June 2020 to Jully 2020 (1 month)**
-- Create a 3D model for an experimental stand
+- Create a 3D model for an experimental stand, report can be found [here](https://htmlpreview.github.io/?https://github.com/pierrepicaud/resume/blob/main/experimental_stand/intership_report.html)
 
 **Machine Operator at EverLight (Taiwan) Jully 2015 to Jully 2018 (1.5 years)**
 - Operate plating machines
