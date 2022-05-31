@@ -31,6 +31,10 @@ Last updated: 29 March 2022
 - Operate plating machines
 
 ## Personal Projects
+Flutter apps:
+- Course work [Chuck Norris Jokes](https://github.com/pierrepicaud/flutter_apps/tree/main/chuck_norris_jokes2) Flutter learning project
+- Course work [Minimalist twitter](https://github.com/pierrepicaud/einstein) final group project
+
 Recreating picture using triangles by genetic algorithm in python ([source](https://github.com/pierrepicaud/recreate_images_from_triangle))
 
 ![triangles.jpeg](./_resources/triangles.jpeg)
