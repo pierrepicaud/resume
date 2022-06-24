@@ -1,4 +1,4 @@
-Last updated: 29 March 2022
+Last updated: 25 June 2022
 ## Du Tham Lieu (Insert Role)
 - Citizenship: Vietnam
 - Lives in: Innopolis, Tartastan, Russia	
@@ -12,6 +12,9 @@ Last updated: 29 March 2022
 - LinkedIn: [Du Tham Lieu](https://www.linkedin.com/in/duthamlieu/)
 
 ## Experience
+**DevOps Tech Support, Soramitsu, June 2022 to present**
+- TBA
+
 **DevOps Intern, Provectus, November 2021 to Ferbuary 2022 (4 months)** [view certificate](./_resources/devops.md)
 - Deployed Jenkins (Helm) on EKS via Terraform
 - Set up said Jenkins Configuration as Code via Jcas, Job DSL plugin
