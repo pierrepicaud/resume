@@ -2,7 +2,7 @@ Last updated: 25 June 2022
 ## Du Tham Lieu (Insert Role)
 - Citizenship: Vietnam
 - Lives in: Innopolis, Tartastan, Russia	
-- Not ready to move, not ready to travel
+- Ready to move, ready to travel (After August 2023)
 
 ## How to reach me
 - Email: duthamlieu@gmail.com
