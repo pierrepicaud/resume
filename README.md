@@ -13,7 +13,9 @@ Last updated: 25 June 2022
 
 ## Experience
 **DevOps Tech Support, Soramitsu, June 2022 to present**
-- TBA
+- Answer requests in tech support chat for developers
+- Resolving alerts at different stages in development
+- Work on infrastructure as code
 
 **DevOps Intern, Provectus, November 2021 to Ferbuary 2022 (4 months)** [view certificate](./_resources/devops.md)
 - Deployed Jenkins (Helm) on EKS via Terraform
