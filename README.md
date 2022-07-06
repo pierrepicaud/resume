@@ -61,7 +61,7 @@ Anki card generator in Python (no GUI) ([source](https://github.com/pierrepicaud
 
 ## Education
 - Studying Computer Science at [Innopolis University](https://innopolis.university/en/), Russia, 2019 to Present
-- [CSIC](https://www.csic.khc.edu.tw/website/csic_EN/index.htm), Kaohsiung, Taiwan, Electronics Jully 2015 to Jully 2018
+- Vocational highschool [CSIC](https://www.csic.khc.edu.tw/website/csic_EN/index.htm) Electronics, Kaohsiung, Taiwan, Jully 2015 to Jully 2018
 
 ## Extra
 - Referal: Andrew Saushkin ([LinkedIn](https://www.linkedin.com/in/andrew-saushkin/))
