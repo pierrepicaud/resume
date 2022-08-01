@@ -13,9 +13,10 @@ Last updated: 25 June 2022
 
 ## Experience
 **DevOps Tech Support, Soramitsu, June 2022 to present**
-- Answer requests in tech support chat for developers
+- Answer requests in tech support chat for developers (permission requests)
 - Resolving alerts at different stages in the development process
-- Work on infrastructure as code
+- Install and set up Sentry on Java/Kotlin and Web application
+- Maintain internal documentation
 
 **DevOps Intern, Provectus, November 2021 to Ferbuary 2022 (4 months)** [view certificate](./_resources/devops.md)
 - Deployed Jenkins (Helm) on EKS via Terraform
