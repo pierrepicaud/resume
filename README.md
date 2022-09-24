@@ -13,15 +13,22 @@ Last updated: 25 June 2022
 
 ## Experience
 **DevOps Tech Support, Soramitsu, June 2022 to present**
-- Answer requests in tech support chat for developers (permission requests)
-- Resolving alerts at different stages in the development process
+- Troubleshoot and solve challenging operational issues in a complex environment.
+- Supporting server instances across several Clouds.
+- Work directly with developers, customers, and partners to provide unique solutions to customer's individual needs for their application deployment.
+- Build and maintain jenkins library, ansible playbooks, terraform files, and scripts to automate and deploy resources and configuration changes.
+- Resolving alerts at different stages in the development process.
+- Answer in support chat
 - Install and set up Sentry on Java/Kotlin and Web application
+- Move MacOS Github Action pipeline to Jenkins
 - Maintain internal documentation
+- Create tutorials, how-to videos, and other technical articles for the team or customers
+- Monitor logs and metrics from (micro)services and servers.
 
 **DevOps Intern, Provectus, November 2021 to Ferbuary 2022 (4 months)** [view certificate](./_resources/devops.md)
 - Deployed Jenkins (Helm) on EKS via Terraform
-- Set up said Jenkins Configuration as Code via Jcas, Job DSL plugin
-- Set up auto-scaling EC2 runners for said Jenkins via EC2 plugin
+- Setup Jenkins via Configuration as Code via Jcas, Job DSL plugin
+- Set up auto-scaling EC2 runners for Jenkins via the EC2 plugin
 - Set up Autoscalling GitLab Runners
 - Enabled cache for maven artifacts
 - Made IAM roles to match the least privilege principle
@@ -58,7 +65,7 @@ Anki card generator in Python (no GUI) ([source](https://github.com/pierrepicaud
 
 ## Languages and skills
 - [SQL](./_resources/sql.md), [matlab](./_resources/matlab.md)
-- Apart from native in Vietnamese I also fluent in English. I can converse in Chinese and Cantonese. Currently I am acquiring Russian
+- Apart from being native in Vietnamese, I am also fluent in English. I can converse in Chinese and Cantonese. Currently I am acquiring Russian
 
 ## Education
 - Studying Computer Science at [Innopolis University](https://innopolis.university/en/), Russia, 2019 to Present
