@@ -12,7 +12,7 @@ Last updated: 25 June 2022
 - LinkedIn: [Du Tham Lieu](https://www.linkedin.com/in/duthamlieu/)
 
 ## Experience
-**DevOps Tech Support, Soramitsu, June 2022 to present**
+**DevOps Tech Support, [Soramitsu](https://soramitsu.co.jp/), June 2022 to present**
 - Troubleshoot and solve challenging operational issues in a complex environment.
 - Supporting server instances across several Clouds.
 - Work directly with developers, customers, and partners to provide unique solutions to customer's individual needs for their application deployment.
@@ -25,7 +25,7 @@ Last updated: 25 June 2022
 - Create tutorials, how-to videos, and other technical articles for the team or customers
 - Monitor logs and metrics from (micro)services and servers.
 
-**DevOps Intern, Provectus, November 2021 to Ferbuary 2022 (4 months)** [view certificate](./_resources/devops.md)
+**DevOps Intern, [Provectus](https://provectus.com/), November 2021 to Ferbuary 2022 (4 months)** [view certificate](./_resources/devops.md)
 - Deployed Jenkins (Helm) on EKS via Terraform
 - Setup Jenkins via Configuration as Code via Jcas, Job DSL plugin
 - Set up auto-scaling EC2 runners for Jenkins via the EC2 plugin
