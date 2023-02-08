@@ -1,4 +1,3 @@
-Last updated: 25 June 2022
 ## Du Tham Lieu (Insert Role)
 - Citizenship: Vietnam
 - Lives in: Innopolis, Tartastan, Russia	
@@ -13,6 +12,7 @@ Last updated: 25 June 2022
 
 ## Experience
 **DevOps Tech Support, [Soramitsu](https://soramitsu.co.jp/), June 2022 to present**
+- Develop and maintain pipeline for Iphone and Android autotests
 - Troubleshoot and solve challenging operational issues in a complex environment.
 - Supporting server instances across several Clouds.
 - Work directly with developers, customers, and partners to provide unique solutions to customer's individual needs for their application deployment.
