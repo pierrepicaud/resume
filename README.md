@@ -11,6 +11,7 @@
 - LinkedIn: [Du Tham Lieu](https://www.linkedin.com/in/duthamlieu/)
 
 ## Experience
+
 **DevOps Tech Support, [Soramitsu](https://soramitsu.co.jp/), June 2022 to present**
 - Develop and maintain pipeline for Iphone and Android autotests
 - Troubleshoot and solve challenging operational issues in a complex environment.
@@ -33,6 +34,7 @@
 - Enabled cache for maven artifacts
 - Made IAM roles to match the least privilege principle
 - CloudFormation template to create ECS with containerized service and alarm with SNS notification
+
 
 **ML engineer intern, Igor Gaponov, June 2021 to Jully 2021 (1 month)**
 - Recreate a numerical simulation from a [research paper](https://arxiv.org/pdf/1611.03537.pdf) (Data Driven Control) from matlab to python, here is the [code](https://colab.research.google.com/drive/1MluMRif3-vMQV137lyqEi-uxBpX2NzRE?usp=sharing)
