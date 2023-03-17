@@ -8,7 +8,7 @@ duthamlieu@gmail.com | +7 906 322 7848 | [Github](https://github.com/pierrepicau
 - Ready to move, ready to travel (After August 2023)
 
 ## Objective
-Objective: To gain further experience and advance my career as a Junior DevOps Engineer by joining a growth-oriented organization that values teamwork, innovation, and collaboration. I am passionate about contributing to the development and deployment of complex systems and technologies, and I am eager to expand my expertise in DevOps practices, tools, and technologies.
+To gain further experience and advance my career as a Junior DevOps Engineer by joining a growth-oriented organization that values teamwork, innovation, and collaboration. I am passionate about contributing to the development and deployment of complex systems and technologies, and I am eager to expand my expertise in DevOps practices, tools, and technologies.
 
 ## Skills
 - Automation testing on Android and iOS platforms
