@@ -4,6 +4,7 @@ duthamlieu@gmail.com | +7 906 322 7848 | [Github](https://github.com/pierrepicau
 
 
 - Citizenship: Vietnam
+- Work permmit in Tartastan: I have
 - Lives in: Innopolis, Tartastan, Russia	
 - Ready to move, ready to travel (After August 2023)
 
