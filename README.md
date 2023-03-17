@@ -84,10 +84,6 @@ Blog/menu/resume in HTML and CSS ([source](https://github.com/pierrepicaud/codin
 
 Anki card generator in Python (no GUI) ([source](https://github.com/pierrepicaud/coding_playground/tree/main/python/anki_mental_math_generator))
 
-## Languages and skills
-- [SQL](./_resources/sql.md), [matlab](./_resources/matlab.md)
-- Apart from being native in Vietnamese, I am also fluent in English. I can converse in Chinese and Cantonese. Currently I am acquiring Russian
-
 ## Education
 - Studying Computer Science at [Innopolis University](https://innopolis.university/en/), Russia, 2019 - present
 - Vocational highschool [CSIC](https://www.csic.khc.edu.tw/website/csic_EN/index.htm) Electronics, Kaohsiung, Taiwan, Jully 2015 - Jully 2018
