@@ -13,6 +13,7 @@ To gain further experience and advance my career as a Junior DevOps Engineer by 
 
 ## Skills
 - Automation testing on Android and iOS platforms
+- Flutter junior (TODO: Profide link to projects)
 - Docker for containerization and deployment
 - Container orchestration tools such as Docker Swarm and Helm
 - DevOps CI/CD principles and practices
@@ -27,13 +28,15 @@ To gain further experience and advance my career as a Junior DevOps Engineer by 
 - Strong communication skills in English and Vietnamese
 - Knowledge of Windows and Linux OS
 - Monitoring services such as Sentry
-- Familiarity with virtualization technologies, including VMWare and Hyp
+- Familiarity with virtualization technologies, including VMWare and HyperV
+- Practical knowledge of Google Drive API
+- Networking knowledge and basic web development knowledge
 - [SQL](./_resources/sql.md), [matlab](./_resources/matlab.md)
 
 ## Experience
 
 DevOps Tech Support, [Soramitsu](https://soramitsu.co.jp/), June 2022 - present
-- Develop and maintain pipeline for Iphone and Android autotests
+- Develop and maintain pipeline for Iphone ([sora-wallet](https://github.com/sora-xor/sora2-passport-appium-tests)) and Android autotests
 - Troubleshoot and solve challenging operational issues in a complex environment.
 - Supporting server instances across several Clouds.
 - Work directly with developers, customers, and partners to provide unique solutions to customer's individual needs for their application deployment.
@@ -45,6 +48,7 @@ DevOps Tech Support, [Soramitsu](https://soramitsu.co.jp/), June 2022 - present
 - Maintain internal documentation
 - Create tutorials, how-to videos, and other technical articles for the team or customers
 - Monitor logs and metrics from (micro)services and servers.
+- Made [kagome](https://github.com/soramitsu/kagome) snapshots available to the public
 
 DevOps Intern, [Provectus](https://provectus.com/), November 2021 - Ferbuary 2022 (4 months), [view certificate](./_resources/devops.md)
 - Deployed Jenkins (Helm) on EKS via Terraform
