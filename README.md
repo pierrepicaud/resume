@@ -30,8 +30,10 @@ To gain further experience and advance my career as a Junior DevOps Engineer by 
 - Monitoring services such as Sentry
 - Familiarity with virtualization technologies, including VMWare and HyperV
 - Practical knowledge of Google Drive API
-- Networking knowledge and basic web development knowledge
-- [SQL](./_resources/sql.md), [matlab](./_resources/matlab.md)
+- Working networking knowledge and basic web development knowledge
+- Working Machine Learning and DeepLearning knowledge
+- Basic Blockchain development knowledge
+- SQL [certificate](./_resources/sql.md), matlab [certificate](./_resources/matlab.md)
 
 ## Experience
 
