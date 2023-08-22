@@ -1,6 +1,6 @@
-## Du Tham Lieu | Льеу Ду Тхам (DevOps)
+## Du Tham Lieu (DevOps)
 
-duthamlieu@gmail.com | +7 906 322 7848 | [Github](https://github.com/pierrepicaud) | [Telegram](https://t.me/fluorescent_axolotl) | [LinkedIn](https://www.linkedin.com/in/duthamlieu/)
+duthamlieu@gmail.com | +7 906 322 7848 (RUS) | (+84) 35 6375348 | [Github](https://github.com/pierrepicaud) | [Telegram](https://t.me/fluorescent_axolotl) | [LinkedIn](https://www.linkedin.com/in/duthamlieu/)
 
 
 - Citizenship: Vietnam
@@ -12,6 +12,7 @@ duthamlieu@gmail.com | +7 906 322 7848 | [Github](https://github.com/pierrepicau
 To gain further experience and advance my career as a Junior DevOps Engineer by joining a growth-oriented organization that values teamwork, innovation, and collaboration. I am passionate about contributing to the development and deployment of complex systems and technologies, and I am eager to expand my expertise in DevOps practices, tools, and technologies.
 
 ## Skills
+- Google APIs
 - Automation testing on Android and iOS platforms
 - Flutter junior (TODO: Profide link to projects)
 - Docker for containerization and deployment
@@ -37,7 +38,7 @@ To gain further experience and advance my career as a Junior DevOps Engineer by 
 
 ## Experience
 
-DevOps Tech Support, [Soramitsu](https://soramitsu.co.jp/), June 2022 - present
+DevOps Tech Support, [Soramitsu](https://soramitsu.co.jp/), June 2022 - August 2023
 - Develop and maintain pipeline for Iphone ([sora-wallet](https://github.com/sora-xor/sora2-passport-appium-tests)) and Android autotests
 - Troubleshoot and solve challenging operational issues in a complex environment.
 - Supporting server instances across several Clouds.
@@ -92,7 +93,7 @@ Blog/menu/resume in HTML and CSS ([source](https://github.com/pierrepicaud/codin
 Anki card generator in Python (no GUI) ([source](https://github.com/pierrepicaud/coding_playground/tree/main/python/anki_mental_math_generator))
 
 ## Education
-- Studying Computer Science at [Innopolis University](https://innopolis.university/en/), Russia, 2019 - present
+- Bachelor of Informatic and Computer Science at [Innopolis University](https://innopolis.university/en/), Russia
 - Vocational highschool [CSIC](https://www.csic.khc.edu.tw/website/csic_EN/index.htm) Electronics, Kaohsiung, Taiwan, Jully 2015 - Jully 2018
 
 ## Extra
