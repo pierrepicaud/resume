@@ -1,6 +1,6 @@
 ## Du Tham Lieu (DevOps)
 
-duthamlieu@gmail.com | +7 906 322 7848 (RUS) | (+84) 35 6375348 | [Github](https://github.com/pierrepicaud) | [Telegram](https://t.me/fluorescent_axolotl) | [LinkedIn](https://www.linkedin.com/in/duthamlieu/)
+duthamlieu@gmail.com | +7 906 322 7848 (RUS) | (+84) 35 6375348 (VN) | [Github](https://github.com/pierrepicaud) | [Telegram](https://t.me/fluorescent_axolotl) | [LinkedIn](https://www.linkedin.com/in/duthamlieu/)
 
 
 - Citizenship: Vietnam
