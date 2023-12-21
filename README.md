@@ -37,7 +37,7 @@ To gain further experience and advance my career as a Junior DevOps Engineer by 
 ## Experience
 
 **Teaching Assistant for Intro to DevOps Course**, Innopolis University, August - December 2023
-- Assisted in teaching the "Intro to DevOps" course, led by Professor [Name], providing insights into real-world DevOps practices.
+- Assisted in teaching the "Intro to DevOps" course, led by Professor Dmitry Creed, providing insights into real-world DevOps practices.
 - Conducted weekly tutorial sessions, reinforcing key DevOps concepts and tools.
 - Developed and graded assignments and projects, focusing on practical applications of DevOps methodologies.
 - Offered one-on-one mentoring to students, helping them grasp complex technical concepts and troubleshooting methods.
@@ -45,7 +45,7 @@ To gain further experience and advance my career as a Junior DevOps Engineer by 
 - Facilitated discussions on modern DevOps trends and their impact on software development and operations.
 
 DevOps Tech Support, [Soramitsu](https://soramitsu.co.jp/), June 2022 - present
-- Develop and maintain pipeline for Iphone ([sora-wallet](https://github.com/sora-xor/sora2-passport-appium-tests)) and Android autotests
+- Develop and maintain pipeline for Iphone ([sora-wallet](https://github.com/sora-xor/sora2-passport-appium-tests)), Fearless Wallet and Android autotests
 - Troubleshoot and solve challenging operational issues in a complex environment.
 - Supporting server instances across several Clouds.
 - Work directly with developers, customers, and partners to provide unique solutions to customer's individual needs for their application deployment.
