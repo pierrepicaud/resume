@@ -6,27 +6,26 @@ duthamlieu@gmail.com | +7 906 322 7848 | [Github](https://github.com/pierrepicau
 - Citizenship: Vietnam
 - Work permmit in Tartastan: I have
 - Lives in: Innopolis, Tartastan, Russia	
-- Ready to move, ready to travel (After August 2023)
+- Ready to move, ready to travel
 
 ## Objective
 To gain further experience and advance my career as a Junior DevOps Engineer by joining a growth-oriented organization that values teamwork, innovation, and collaboration. I am passionate about contributing to the development and deployment of complex systems and technologies, and I am eager to expand my expertise in DevOps practices, tools, and technologies.
 
 ## Skills
 - Automation testing on Android and iOS platforms
-- Flutter junior (TODO: Profide link to projects)
+- Flutter junior (TODO: Profile link to projects)
 - Docker for containerization and deployment
 - Container orchestration tools such as Docker Swarm and Helm
 - DevOps CI/CD principles and practices
-- Infrastructure as code tools such as Terraform and CloudFormation
+- Infrastructure as code tools such as Terraform
 - Continuous integration and delivery (CI/CD) tools such as Jenkins, GitLab CI, and GitHub Actions
 - Configuration management tools such as Ansible
 - Kubernetes for container orchestration and management
-- Programming languages such as Python and shell scripting (bash)
-- Big data processing technologies such as Spark
+- Programming languages such as Python, Groovy and shell scripting (bash)
 - Cloud computing platforms such as AWS and Google Cloud
 - Version control systems such as Git and GitHub
 - Strong communication skills in English and Vietnamese
-- Knowledge of Windows and Linux OS
+- Basic knowledge of Windows, Mac and Linux OS
 - Monitoring services such as Sentry
 - Familiarity with virtualization technologies, including VMWare and HyperV
 - Practical knowledge of Google Drive API
@@ -36,6 +35,14 @@ To gain further experience and advance my career as a Junior DevOps Engineer by 
 - SQL [certificate](./_resources/sql.md), matlab [certificate](./_resources/matlab.md)
 
 ## Experience
+
+**Teaching Assistant for Intro to DevOps Course**, Innopolis University, August - December 2023
+- Assisted in teaching the "Intro to DevOps" course, led by Professor [Name], providing insights into real-world DevOps practices.
+- Conducted weekly tutorial sessions, reinforcing key DevOps concepts and tools.
+- Developed and graded assignments and projects, focusing on practical applications of DevOps methodologies.
+- Offered one-on-one mentoring to students, helping them grasp complex technical concepts and troubleshooting methods.
+- Collaborated with the professor in creating course materials, including lecture slides and practical exercises.
+- Facilitated discussions on modern DevOps trends and their impact on software development and operations.
 
 DevOps Tech Support, [Soramitsu](https://soramitsu.co.jp/), June 2022 - present
 - Develop and maintain pipeline for Iphone ([sora-wallet](https://github.com/sora-xor/sora2-passport-appium-tests)) and Android autotests
