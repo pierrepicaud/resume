@@ -51,8 +51,7 @@ DevOps Tech Support, [Soramitsu](https://soramitsu.co.jp/), June 2022 - August 2
 - Maintain internal documentation
 - Create tutorials, how-to videos, and other technical articles for the team or customers
 - Monitor logs and metrics from (micro)services and servers.
-- Made [kagome](https://github.com/soramitsu/kagome) snapshots available to the public
-
+- Developed a python script to upload large files to Google Drive using Google Drive API
 DevOps Intern, [Provectus](https://provectus.com/), November 2021 - Ferbuary 2022 (4 months), [view certificate](./_resources/devops.md)
 - Deployed Jenkins (Helm) on EKS via Terraform
 - Setup Jenkins via Configuration as Code via Jcas, Job DSL plugin
