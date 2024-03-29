@@ -1,4 +1,4 @@
-## Du Tham Lieu | Льеу Ду Тхам (DevOps Tech Support)
+## Du Tham Lieu (DevOps Engineer)
 
 duthamlieu@gmail.com | +7 906 322 7848 | [Github](https://github.com/pierrepicaud) | [Telegram](https://t.me/fluorescent_axolotl) | [LinkedIn](https://www.linkedin.com/in/duthamlieu/)
 
@@ -35,7 +35,7 @@ To gain further experience and advance my career as a Junior DevOps Engineer by 
 
 ## Experience
 
-**Teaching Assistant for Intro to DevOps Course**, Innopolis University, August - December 2023
+**Teaching Assistant for Intro to DevOps Course**, Innopolis University, August 2023 - Present
 - Assisted in teaching the "Intro to DevOps" course, led by Professor Dmitry Creed, providing insights into real-world DevOps practices.
 - Conducted weekly tutorial sessions, reinforcing key DevOps concepts and tools.
 - Developed and graded assignments and projects, focusing on practical applications of DevOps methodologies.
