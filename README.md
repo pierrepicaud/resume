@@ -11,11 +11,10 @@ duthamlieu@gmail.com | +7 906 322 7848 | [Github](https://github.com/pierrepicau
 To gain further experience and advance my career as a Junior DevOps Engineer by joining a growth-oriented organization that values teamwork, innovation, and collaboration. I am passionate about contributing to the development and deployment of complex systems and technologies, and I am eager to expand my expertise in DevOps practices, tools, and technologies.
 
 ## Skills
-- Kubernetes and ArgoCD
 - Automation testing on Android and iOS platforms
 - Flutter junior (TODO: Profile link to projects)
 - Docker for containerization and deployment
-- Container orchestration tools such as Docker Swarm and Helm
+- Container orchestration tools such as Docker, Helm, Kubernetes and ArgoCD
 - DevOps CI/CD principles and practices
 - Infrastructure as code tools such as Terraform
 - Continuous integration and delivery (CI/CD) tools such as Jenkins, GitLab CI, and GitHub Actions
