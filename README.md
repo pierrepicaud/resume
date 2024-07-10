@@ -11,8 +11,8 @@ duthamlieu@gmail.com | +7 906 322 7848 | [Github](https://github.com/pierrepicau
 To gain further experience and advance my career as a Junior DevOps Engineer by joining a growth-oriented organization that values teamwork, innovation, and collaboration. I am passionate about contributing to the development and deployment of complex systems and technologies, and I am eager to expand my expertise in DevOps practices, tools, and technologies.
 
 ## Education
-- Studying Computer Science at [Innopolis University](https://innopolis.university/en/), Russia
-- Vocational highschool [CSIC](https://www.csic.khc.edu.tw/website/csic_EN/index.htm) Electronics, Kaohsiung, Taiwan, Jully
+- Major in Computer Science and Informatic and Minor in Applied Artificial Intelligence  at [Innopolis University](https://innopolis.university/en/), Tatarstan, Russia
+- Electronics Vocational highschool [CSIC](https://www.csic.khc.edu.tw/website/csic_EN/index.htm) Kaohsiung, Taiwan
 
 ## Skills
 - Automation testing on Android and iOS platforms
