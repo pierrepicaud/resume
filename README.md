@@ -12,50 +12,47 @@ To gain further experience and advance my career as a Junior DevOps Engineer by 
 
 ## Skills
 - Automation testing on Android and iOS platforms
-- Flutter junior (TODO: Profile link to projects)
 - Docker for containerization and deployment
-- Container orchestration tools such as Docker, Helm, Kubernetes and ArgoCD
-- DevOps CI/CD principles and practices
-- Infrastructure as code tools such as Terraform
-- Continuous integration and delivery (CI/CD) tools such as Jenkins, GitLab CI, and GitHub Actions
+- Container orchestration tools (Docker, Helm, Kubernetes, ArgoCD,...)
+- Infrastructure as code tools such as (Terraform,...)
+- CI/CD tools (Jenkins, GitLab CI, GitHub Actions,...)
 - Configuration management tools such as Ansible
-- Kubernetes for container orchestration and management
 - Programming languages such as Python, Groovy and shell scripting (bash)
 - Cloud computing platforms such as AWS and Google Cloud
-- Version control systems such as Git and GitHub
 - Strong communication skills in English and Vietnamese
-- Basic knowledge of Windows, Mac and Linux OS
-- Monitoring services such as Sentry
-- Familiarity with virtualization technologies, including VMWare and HyperV
-- Practical knowledge of Google Drive API
+- Monitoring services (Sentry, Graphana, Prometheus,...)
 - Working networking knowledge and basic web development knowledge
-- Working Machine Learning and DeepLearning knowledge
-- Basic Blockchain development knowledge
+- Basic Machine Learning and DeepLearning knowledge
 - SQL [certificate](./_resources/sql.md), matlab [certificate](./_resources/matlab.md)
 
 ## Experience
 
-**Teaching Assistant for Intro to DevOps Course**, Innopolis University, August 2023 - Present
-- Assisted in teaching the "Intro to DevOps" course, led by Professor Dmitry Creed, providing insights into real-world DevOps practices.
+DevOps Tech Support, [Soramitsu](https://soramitsu.co.jp/), June 2024 - present
+- Deployed and supported infrastructure, ensuring modernization and adaptation to company needs
+- Introduced and maintained new services, ensuring existing ones are up to date
+- Organized and modernized CI/CD processes, including documentation
+- Managed access rights and coordinated DevOps-support department activities
+- Performed monitoring, logging, and backup tasks to maintain system integrity
+- Developed and maintained automation scripts (Ansible playbooks, Terraform files) for resource deployment and configuration changes
+- Created technical documentation, tutorials, and support materials for internal teams and customers
+- Escalated unresolved issues to senior DevOps engineers for resolution
+
+**Teaching Assistant for DevOps Courses**, Innopolis University, August 2023 - Present
+- Assisted in teaching DevOps courses for Master/Bachelor students, led by Professor Dmitry Creed, providing insights into real-world DevOps practices.
 - Conducted weekly tutorial sessions, reinforcing key DevOps concepts and tools.
 - Developed and graded assignments and projects, focusing on practical applications of DevOps methodologies.
 - Offered one-on-one mentoring to students, helping them grasp complex technical concepts and troubleshooting methods.
 - Collaborated with the professor in creating course materials, including lecture slides and practical exercises.
 - Facilitated discussions on modern DevOps trends and their impact on software development and operations.
 
-DevOps Tech Support, [Soramitsu](https://soramitsu.co.jp/), June 2022 - present
-- Develop and maintain pipeline for Iphone ([sora-wallet](https://github.com/sora-xor/sora2-passport-appium-tests)), Fearless Wallet and Android autotests
-- Troubleshoot and solve challenging operational issues in a complex environment.
+DevOps Tech Support, [Soramitsu](https://soramitsu.co.jp/), June 2022 - June 2024
+- Develop and maintain Android/iOS
+- Troubleshoot/monitor and solve challenging operational issues in a complex environment.
 - Supporting server instances across several Clouds.
 - Work directly with developers, customers, and partners to provide unique solutions to customer's individual needs for their application deployment.
 - Build and maintain jenkins library, ansible playbooks, terraform files, and scripts to automate and deploy resources and configuration changes.
-- Resolving alerts at different stages in the development process.
-- Answer in support chat
-- Install and set up Sentry on Java/Kotlin and Web application
-- Move MacOS Github Action pipeline to Jenkins
-- Maintain internal documentation
-- Create tutorials, how-to videos, and other technical articles for the team or customers
-- Monitor logs and metrics from (micro)services and servers.
+- Set up different tools to enhance existing application
+- Create/maintain tutorials, how-to videos, and other technical articles for the team or customers
 - Made [kagome](https://github.com/soramitsu/kagome) snapshots available to the public
 
 DevOps Intern, [Provectus](https://provectus.com/), November 2021 - Ferbuary 2022 (4 months), [view certificate](./_resources/devops.md)
@@ -78,9 +75,10 @@ Machine Operator at EverLight (Taiwan) Jully 2015 - Jully 2018 (1.5 years)
 - Operate plating machines
 
 ## Personal Projects
-Flutter apps:
-- Course work [Chuck Norris Jokes](https://github.com/pierrepicaud/flutter_apps/tree/main/chuck_norris_jokes2) Flutter learning project
-- Course work [Minimalist twitter](https://github.com/pierrepicaud/einstein) final group project (front-end + project manager)
+- Christmas E-card (live at [https://pierrepicaud.github.io/143/](https://pierrepicaud.github.io/143/))
+- Flutter apps:
+  - Course work [Chuck Norris Jokes](https://github.com/pierrepicaud/flutter_apps/tree/main/chuck_norris_jokes2) Flutter learning project
+  - Course work [Minimalist twitter](https://github.com/pierrepicaud/einstein) final group project (front-end + project manager)
 
 Recreating picture using triangles by genetic algorithm in python ([source](https://github.com/pierrepicaud/recreate_images_from_triangle))
 
