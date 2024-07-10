@@ -8,7 +8,7 @@ duthamlieu@gmail.com | +7 906 322 7848 | [Github](https://github.com/pierrepicau
 - Ready to move, ready to travel
 
 ## Objective
-To gain further experience and advance my career as a Junior DevOps Engineer by joining a growth-oriented organization that values teamwork, innovation, and collaboration. I am passionate about contributing to the development and deployment of complex systems and technologies, and I am eager to expand my expertise in DevOps practices, tools, and technologies.
+To leverage my expertise and grow as a DevOps Engineer within a dynamic, innovative, and collaborative organization. I am committed to contributing to the deployment and management of sophisticated systems and advancing my skills in DevOps tools, practices, and technologies.
 
 ## Education
 - Major in Computer Science and Informatic and Minor in Applied Artificial Intelligence  at [Innopolis University](https://innopolis.university/en/), Tatarstan, Russia
