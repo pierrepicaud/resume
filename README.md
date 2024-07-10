@@ -10,6 +10,10 @@ duthamlieu@gmail.com | +7 906 322 7848 | [Github](https://github.com/pierrepicau
 ## Objective
 To gain further experience and advance my career as a Junior DevOps Engineer by joining a growth-oriented organization that values teamwork, innovation, and collaboration. I am passionate about contributing to the development and deployment of complex systems and technologies, and I am eager to expand my expertise in DevOps practices, tools, and technologies.
 
+## Education
+- Studying Computer Science at [Innopolis University](https://innopolis.university/en/), Russia
+- Vocational highschool [CSIC](https://www.csic.khc.edu.tw/website/csic_EN/index.htm) Electronics, Kaohsiung, Taiwan, Jully
+
 ## Skills
 - Automation testing on Android and iOS platforms
 - Docker for containerization and deployment
@@ -27,7 +31,7 @@ To gain further experience and advance my career as a Junior DevOps Engineer by 
 
 ## Experience
 
-DevOps Tech Support, [Soramitsu](https://soramitsu.co.jp/), June 2024 - present
+DevOps/SRE engineer, [Soramitsu](https://soramitsu.co.jp/), June 2024 - present
 - Deployed and supported infrastructure, ensuring modernization and adaptation to company needs
 - Introduced and maintained new services, ensuring existing ones are up to date
 - Organized and modernized CI/CD processes, including documentation
@@ -95,9 +99,7 @@ Blog/menu/resume in HTML and CSS ([source](https://github.com/pierrepicaud/codin
 
 Anki card generator in Python (no GUI) ([source](https://github.com/pierrepicaud/coding_playground/tree/main/python/anki_mental_math_generator))
 
-## Education
-- Studying Computer Science at [Innopolis University](https://innopolis.university/en/), Russia, 2019 - present
-- Vocational highschool [CSIC](https://www.csic.khc.edu.tw/website/csic_EN/index.htm) Electronics, Kaohsiung, Taiwan, Jully 2015 - Jully 2018
+
 
 ## Extra
 - Referal: Andrew Saushkin ([LinkedIn](https://www.linkedin.com/in/andrew-saushkin/))
