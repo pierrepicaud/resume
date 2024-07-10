@@ -16,22 +16,22 @@ To gain further experience and advance my career as a Junior DevOps Engineer by 
 
 ## Skills
 - Automation testing on Android and iOS platforms
-- Docker for containerization and deployment
 - Container orchestration tools (Docker, Helm, Kubernetes, ArgoCD,...)
 - Infrastructure as code tools such as (Terraform,...)
 - CI/CD tools (Jenkins, GitLab CI, GitHub Actions,...)
-- Configuration management tools such as Ansible
-- Programming languages such as Python, Groovy and shell scripting (bash)
+- Configuration management tools (Ansible,...)
+- Programming languages (Python, Groovy and shell scripting)
 - Cloud computing platforms such as AWS and Google Cloud
 - Strong communication skills in English and Vietnamese
 - Monitoring services (Sentry, Graphana, Prometheus,...)
-- Working networking knowledge and basic web development knowledge
+- Working networking knowledge
+- Basic web development knowledge
 - Basic Machine Learning and DeepLearning knowledge
 - SQL [certificate](./_resources/sql.md), matlab [certificate](./_resources/matlab.md)
 
 ## Experience
 
-DevOps/SRE engineer, [Soramitsu](https://soramitsu.co.jp/), June 2024 - present
+**DevOps/SRE engineer**, [Soramitsu](https://soramitsu.co.jp/), June 2024 - present
 - Deployed and supported infrastructure, ensuring modernization and adaptation to company needs
 - Introduced and maintained new services, ensuring existing ones are up to date
 - Organized and modernized CI/CD processes, including documentation
@@ -49,7 +49,7 @@ DevOps/SRE engineer, [Soramitsu](https://soramitsu.co.jp/), June 2024 - present
 - Collaborated with the professor in creating course materials, including lecture slides and practical exercises.
 - Facilitated discussions on modern DevOps trends and their impact on software development and operations.
 
-DevOps Tech Support, [Soramitsu](https://soramitsu.co.jp/), June 2022 - June 2024
+**DevOps Tech Support**, [Soramitsu](https://soramitsu.co.jp/), June 2022 - June 2024 (2 years)
 - Develop and maintain Android/iOS
 - Troubleshoot/monitor and solve challenging operational issues in a complex environment.
 - Supporting server instances across several Clouds.
@@ -59,7 +59,7 @@ DevOps Tech Support, [Soramitsu](https://soramitsu.co.jp/), June 2022 - June 202
 - Create/maintain tutorials, how-to videos, and other technical articles for the team or customers
 - Made [kagome](https://github.com/soramitsu/kagome) snapshots available to the public
 
-DevOps Intern, [Provectus](https://provectus.com/), November 2021 - Ferbuary 2022 (4 months), [view certificate](./_resources/devops.md)
+**DevOps Intern**, [Provectus](https://provectus.com/), November 2021 - Ferbuary 2022 (4 months), [view certificate](./_resources/devops.md)
 - Deployed Jenkins (Helm) on EKS via Terraform
 - Setup Jenkins via Configuration as Code via Jcas, Job DSL plugin
 - Set up auto-scaling EC2 runners for Jenkins via the EC2 plugin
